@@ -2,23 +2,46 @@
 <html>
     <head>
         <title>Andy Wolf - Portfolio</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <style>
+            table, th, td {
+                    border: 1px solid #292533;
+                    padding: 5px 10px 5px 10px;
+                    border-spacing: 2px 5px;
+            }
+            table {
+                    width: 100%;
+            }
+            td, th {
+                    height: 30px;
+            }
+            th {
+                    background-color: #5b7d87;
+                    color: white;
+            }
+            tr:nth-child(odd) {
+                    background-color: #d5d2cb;
+            }
+
+        </style>
     </head>
     <body>
     <div id="title">
         <h1>Portfolio for Andy Wolf</h1>
     </div>
     <div id="navigation">
-        <hr/>
+        <hr style="border-top: 3px double #8c2238;" />
         <p>
-                <a href="portfolio.html">Portfolio</a >   
-                <a href="contactMe.html">Contact Me</a>   
-                <a href="testimonials.html">Testimonials</a>   
+                <a href="portfolio.html">Portfolio</a>   
+                <a href="contactMe.html" target="_blank">Contact Me</a>   
+                <a href="testimonials.html" target="_blank">Testimonials</a>   
         </p>
-        <hr/></div>
-        <div id="main">
-       <div id="aboutMe">
+        <hr style="border-top:3px double #8c2238;" />
+    </div>
+    <div id="main">
+        <div id="aboutMe">
         <div class="image"><img src="images/andypic.jpg" alt="Picture of Andy"/></div>   
-        <div class-"content"> <h2><em>About Me</em></h2>
+        <div class="content"> <h2><em>About Me</em></h2>
         <p>I am a student at The Software Guild who would like to start a new career in an exciting feild.
         </p></div>
     </div>
